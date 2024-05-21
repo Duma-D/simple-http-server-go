@@ -12,3 +12,7 @@ Content-Type: "application/json"
 
 ### List all persons recorded
 GET http://localhost:8080/list-everybody
+
+### Delete
+
+DELETE http://localhost:8080/delete-person-record/REPLACE_WITH_ID
