@@ -1,0 +1,14 @@
+### Create a person record
+POST http://localhost:8080/create-person-record
+Content-Type: "application/json"
+
+{
+    "firstName": "John",
+    "lastName": "Don",
+    "age": 29,
+    "sex": "Male"
+}
+
+
+### List all persons recorded
+GET http://localhost:8080/list-everybody
